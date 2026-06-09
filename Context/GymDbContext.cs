@@ -9,7 +9,7 @@ namespace MVC_1.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = 7ODA ; Database = GymDb ; Trusted_Connection = true ; TrustServerCertificate = true;");
+            optionsBuilder.UseSqlServer("Server = 7ODA ; Database = GymDb2 ; Trusted_Connection = true ; TrustServerCertificate = true;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
